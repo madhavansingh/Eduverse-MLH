@@ -444,7 +444,9 @@ graph LR
 | **WebSockets** | Socket.io / NestJS Gateways | Real-time Multiplayer & Progress Sync |
 | **Dev Tools** | Docker + nodemon + ts-node | Containerization & Dev Hot Reloading |
 
+
 ---
+
 
 ## Project Structure
 
@@ -527,7 +529,9 @@ The frontend uses Framer Motion layout animations and custom CSS hardware accele
 - **Input Sanitization & Protection**: Strict input validation using NestJS `class-validator` and `class-transformer` to eliminate SQL Injection, XSS, and payload pollution attacks.
 - **Rate Limiting & Throttling**: API endpoint throttling built with NestJS Throttler module to prevent DDoS attacks and LLM quota exhaustion.
 
+
 ---
+
 
 ## Performance Optimizations
 
@@ -635,7 +639,9 @@ Eduverse exposes a RESTful API and WebSocket endpoints for seamless client integ
 | **Exam Clone** | `POST` | `/api/v1/exam-clone/generate` | Generate mock exam paper from past PDF | Auth |
 | **Live Quiz** | `WS` | `/socket.io` | Real-time multiplayer quiz WebSocket gateway | Auth |
 
+
 ---
+
 
 <div align="center">
 
@@ -644,3 +650,4 @@ Eduverse exposes a RESTful API and WebSocket endpoints for seamless client integ
 *Crafted with precision for students, researchers, and lifelong learners.*
 
 </div>
+
