@@ -1,4 +1,5 @@
 #!/bin/bash
+# Eduverse local environment startup script
 
 echo "Starting Eduverse Platform..."
 echo ""
