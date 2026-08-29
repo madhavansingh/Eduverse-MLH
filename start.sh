@@ -1,6 +1,22 @@
 #!/bin/bash
-# Eduverse local environment startup script
-
+# ==============================================================================
+# Eduverse Platform - Local Environment Orchestration Script
+# ==============================================================================
+# Description:
+#   Automates the local initialization and startup of the Eduverse platform.
+#   Performs runtime environment validation, provisions core database & vector
+#   infrastructure via Docker Compose, and prepares services for development.
+#
+# Prerequisites:
+#   - Docker Desktop running locally
+#   - Node.js 18+ and npm installed
+#
+# Infrastructure Services Managed:
+#   - PostgreSQL (Database & Vector Extensions)
+#   - Redis (Session Caching & Job Queues)
+#   - Qdrant (Vector Engine for Embeddings)
+#   - ClickHouse (Analytics Logging)
+# ==============================================================================
 echo "Starting Eduverse Platform..."
 echo ""
 
