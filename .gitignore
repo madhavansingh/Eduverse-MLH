@@ -1,3 +1,4 @@
+# Root .gitignore for Eduverse
 # Dependencies
 node_modules/
 .pnp
